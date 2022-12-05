@@ -3,6 +3,7 @@ const axios = require('axios');
 const cheerio = require('cheerio')
 var _ = require('underscore');
 const htmlToText = require('html-to-text');
+var connection = require('../config/connection');
 
 var router = express.Router();
 
