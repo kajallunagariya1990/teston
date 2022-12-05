@@ -10,9 +10,9 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  setInterval(() => {
-    console.log("test",new Date());
-  }, 500);
+  // setInterval(() => {
+  //   console.log("test",new Date());
+  // }, 500);
   res.render('index', { title: 'Express' });
 
 });
